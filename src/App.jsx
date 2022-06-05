@@ -105,6 +105,7 @@ function App() {
     console.log(id)
     const arrayFiltrado = users.filter(user => user.id !== id)
     setUsers(arrayFiltrado)
+    setDefaultUsers(arrayFiltrado)
   }
 
   return (
